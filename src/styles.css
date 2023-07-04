@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.buttons {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+.buttons:hover {
+  transform: scale(1.2);
+}
+.buttons:active {
+  color: grey;
+}
+.text-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: auto;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.sl {
+  width: 50px;
+}
+.calculator {
+  padding-top: 100px;
+}
